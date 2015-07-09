@@ -1,8 +1,7 @@
-#ifndef cppclassHeader
-#define cppclassHeader
+#include <stdio.h>
+#include <iostream>
+
 //**********************************!
-//    Declare C++ Functions Here    !
+//    Checks if number is prime     !
 //**********************************!
 void sofunctiontest(int &maxprime);
-
-#endif

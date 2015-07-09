@@ -5,17 +5,17 @@
 !**********************************!
 program findprimes
     implicit none
-    !integer :: maxprime
+    integer :: maxprime
     !logical :: test
     !int, dimension (:), allocatable :: array
 
     print *, 'Insert highest number to check: '
-    !read *, maxprime
+    read *, maxprime
 
 
     !Check if number is prime
     !call primecheck(maxprime,test)
-    call functiontest()
+    call functiontest(maxprime)
 
     !allocate()
 

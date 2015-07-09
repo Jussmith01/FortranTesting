@@ -1,16 +1,15 @@
 #include <stdio.h>
-#include <iostream>
 #include "sofunctiontesting.h"
 
 //**********************************!
-//    Checks if number is prime     !
+//    C Wrapper to C++ Functions    !
 //**********************************!
 extern "C"
 {
-    int functiontest_()
+    int functiontest_(int &maxprime)
     {
-        printf("CWRAPPER: Calling SO Function!!\n");
-        sofunctiontest();
+        printf("CWRAPPER: Calling SO Function %i !!\n",maxprime);
+        sofunctiontest(maxprime);
 
         return (1);
     };

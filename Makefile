@@ -17,17 +17,17 @@ LDFLAGS=-Llib
 
 # Linker Flags
 #LINKERFLAGS=-lsotestfunc -lc -lstdc++
-LINKERFLAGS=-lsotestfunc -lc -lstdc++
+LINKERFLAGS=-lsotestfunc -lc
 
 # Include Flags
 CINCLUDES=include/
 
 # Source Files
-CSRC=cwrapper.cpp
+CSRC=cwrapper.c
 FSRC=main.f95
 
 # Object Files
-COBJECTS=$(CSRC:.cpp=.o)
+COBJECTS=$(CSRC:.c=.o)
 FOBJECTS=$(FSRC:.f95=.o)
 
 #--------------------------

@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <iostream>
+#include "sofunctiontesting.h"
 
 //**********************************!
 //    Checks if number is prime     !
 //**********************************!
 extern "C"
 {
-    int functiontest_();
+    int functiontest_()
+    {
+        printf("CWRAPPER: Calling SO Function!!\n");
+        sofunctiontest();
+
+        return (1);
+    };
 }
 
-int functiontest_()
-{
-    printf("Hello World!");
-    std::cout << "Testing!!\n" << std::endl;
-
-    return (1);
-};

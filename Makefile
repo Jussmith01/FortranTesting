@@ -13,14 +13,14 @@ CXX=g++
 FORT=gfortran
 
 # Library Flags
-LDFLAGS=-Llib
+LDFLAGS=-Lsotest/lib
 
 # Linker Flags
 #LINKERFLAGS=-lsotestfunc -lc -lstdc++
-LINKERFLAGS=-lsotestfunc -lc
+LINKERFLAGS=-lSharedObjectdb -lc -lstdc++
 
 # Include Flags
-CINCLUDES=include/
+CINCLUDES=sotest/include/
 
 # Source Files
 CSRC=cwrapper.c

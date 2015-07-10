@@ -1,7 +1,9 @@
-#include <stdio.h>
-#include <iostream>
+#ifndef CUDA_FUNC
+#define CUDA_FUNC
 
 //**********************************!
-//    Checks if number is prime     !
+//       SO Testing Function        !
 //**********************************!
 void sofunctiontest(int &maxprime);
+
+#endif

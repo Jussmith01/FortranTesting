@@ -9,7 +9,7 @@ program findprimes
     !logical :: test
     !int, dimension (:), allocatable :: array
 
-    print *, 'Insert highest number to check: '
+    print *, 'Fortran wants a Number: '
     read *, maxprime
 
 

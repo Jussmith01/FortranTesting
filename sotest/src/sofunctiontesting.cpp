@@ -6,5 +6,5 @@
 //**********************************!
 void sofunctiontest(int &maxprime)
 {
-    std::cout << " SO Function HERE!!: " << maxprime << std::endl;
+    std::cout << " SO Function HERE!! The number is: " << maxprime << std::endl;
 };
